@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.guessthecar">
+
+    <application
+        android:name=".Controller"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GuessTheCar">
+        <activity
+            android:name=".LevelOverActivity"
+            android:label="@string/level_over_activity_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.guessthecar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdvancedLevelActivity"
+            android:label="@string/advanced_level_activity_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.guessthecar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdentifyCarImageActivity"
+            android:label="@string/identify_car_image_activity_name"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.project.guessthecar.MainActivity" />
+
+        <activity
+            android:name=".HintsActivity"
+            android:label="@string/hints_activity_name"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.project.guessthecar.MainActivity" />
+
+        <activity
+            android:name=".IdentifyCarMakeActivity"
+            android:label="@string/identify_car_make_activity_name"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.project.guessthecar.MainActivity" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

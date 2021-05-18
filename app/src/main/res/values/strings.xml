@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Guess the Car</string>
+    <string name="advanced_level_activity_name">Advanced Level</string>
+    <string name="identify_car_image_activity_name">Identify the Car Image</string>
+    <string name="hints_activity_name">Hints</string>
+    <string name="identify_car_make_activity_name">Identify the Car Make</string>
+    <string name="identify_car_make_btn_text">Identify the Car Make</string>
+    <string name="hints_btn_text">Hints</string>
+    <string name="identify_car_btn_text">Identify the Car Image</string>
+    <string name="advanced_level_btn_text">Advanced Level</string>
+    <string name="identify_btn_text">Identify</string>
+    <string name="submit_btn_text">Submit</string>
+    <string name="next_btn_text">Next</string>
+    <string name="correct_result_message">CORRECT!</string>
+    <string name="wrong_result_message">WRONG!</string>
+    <string name="user_guess_input_message">One character is allowed at a time</string>
+    <string name="timer_switch_text">Timer</string>
+    <string name="time_over_text">Time\'s up!</string>
+    <string name="time_remaining_text">"Time remaining : "</string>
+    <string name="description_text">In love with cars?
+        \nWant to test your knowledge about different cars?
+        \nGive it a try with four different levels!
+    </string>
+    <string name="pick_a_level_text">Pick a level of your choice</string>
+    <string name="identify_car_make_description">Take the challenge!\nSelect the correct car make from the list</string>
+    <string name="hints_description">Don\'t have much knowledge about car makes?\nStill you got the chance to win\nGuess the correct car make letter by letter!</string>
+    <string name="advanced_level_description">Looking for more challenges?\nWhy not try guessing car makes of three cars at once?</string>
+    <string name="enter_your_guess_text">Enter your guess here</string>
+    <string name="identify_car_image_description">How confident you are about your knowledge?\nTest it by selecting the image that\nmathces to the given car make</string>
+    <string name="incorrect_guess_message">You have made %d incorrect guesses.Only 3 incorrect guesses allowed maximum</string>
+    <string name="level_over_activity_name">End of Game Level</string>
+    <string name="end_of_level_message">Congratulations! \nYou have reached the end of this game level\n\nThank you for being with our app</string>
+    <string name="back_to_home_btn_text">Go Back To Home</string>
+    <string name="rate_app_btn_text">Rate This App</string>
+    <string-array name="car_make_array">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Bugatti</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>Porsche</item>
+    </string-array>
+</resources>
